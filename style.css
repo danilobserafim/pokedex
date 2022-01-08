@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: rgb(177, 177, 177);
+}
+#cabecalho ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+#cabecalho ul li{
+    transition: 0.3s;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    cursor: pointer;
+}
+#cabecalho ul li:hover{
+    color: white;
+}
+#lista{
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 8px;
+
+}
+#lista h1{
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    color: white;
+    text-shadow: 1px 1px 3px gray;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.card{
+    padding: 8px;
+    position: relative;
+    background-color: aqua;
+    width: 16.1%;
+    text-align: center;
+    height: 200;
+    align-items: center;
+    cursor: pointer;
+}
+.card:hover h1{
+    background-color: black;
+}
+.card img{
+    width: 100%;
+}
